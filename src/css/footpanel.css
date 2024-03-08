@@ -1,0 +1,17 @@
+.foot-panel1{
+    margin-top: 15px;
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    cursor: pointer;
+    user-select: none;
+    transition: 200ms;
+}
+.foot-panel1:hover{
+    font-size: 0.95rem;
+    background-color: #1e2731;
+}

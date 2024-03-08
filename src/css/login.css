@@ -1,0 +1,81 @@
+.login{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.logo{
+
+    width: 100%;
+    height: 100px;
+    display: flex;
+    text-align: center;
+   margin-top: 20px;
+    justify-content: center;
+}
+.container{
+    /* margin-top: 35px; */
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.email-box{
+    /* border : 1px solid red; */
+    margin: 10px;
+}
+.password-box{
+    /* border : 1px solid red; */
+    margin: 10px;
+}
+input{
+    border-radius: 3px;
+    /* outline-color: rgb(174, 174, 174); */
+    outline: none;
+    border: 1px solid rgb(129, 129, 129);
+    width: 95%;
+    margin: 3px 0;
+    height: 35px;
+    padding-left: 10px;
+    
+}
+input:focus{
+    box-shadow: 0 0 5px 2px rgba(142, 234, 255, 0.82);
+    background-color: rgba(212, 247, 255, 0.253);
+    border-color: black;
+}
+hr{
+    color: 2px solid rgb(207, 207, 207);
+    
+    width: 95%;
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 100;
+}
+
+button{
+    margin: 10px;
+    background: #ffdf3f;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+button:hover{
+    background: #f4b517;
+}
+button:active{
+    box-shadow: 0 0 5px 2px rgba(108, 211, 255, 0.884);
+    background: #f4b517;
+    border-color: black;
+    
+}
+h1{
+    font-weight: 600;
+    margin: 10px;
+    /* border: 2px solid red; */
+}
+label{
+    font-weight: 500;
+}
